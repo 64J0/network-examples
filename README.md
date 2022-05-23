@@ -22,4 +22,7 @@ nc -u 127.0.0.1 5500
 cd udpserver-c
 gcc main.c -o udp-server.out
 ./udp-server.out
+# on a different terminal run this command to stablish connection
+nc -u 127.0.0.1 5501
+# start typing and hitting enter to send the message
 ```
